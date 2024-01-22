@@ -17,4 +17,13 @@
 
 # Asking the user to input a number
 given_number = int(input("Enter a number: "))
-print("Original number is: ", given_number)
+print("Original number is:", given_number)
+
+# Using reverse function to reverse the given number 
+reverse_number = reversed(given_number)
+
+# Checking if the given number is Palindrome number
+if given_number == reverse_number:
+    print("The given number is a Palindrome number")
+else:
+    print("The given number is not a Palindrome number")
